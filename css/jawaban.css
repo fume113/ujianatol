@@ -1,0 +1,41 @@
+/* Bahasa Indonesia, PAI, PKN*/
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    background: #1A4D2E;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+}
+
+tr h4{
+    color: #200020;
+    text-align: justify;
+}
+
+tr td{
+    color: #fff;
+    padding: 12px 14px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    background: #146356;
+    color: #fff;
+    padding: 16px 16px;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover{
+    background: #557C55;
+    
+}
+
+
+

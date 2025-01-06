@@ -1,0 +1,118 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #CFD2CF;
+}
+
+.container{
+    background: #7C9473;
+    min-height: 100vh;
+}
+
+.id input[type="text"] {
+    width: 50px;
+    background: #92967D;
+    border: 1px solid #92967D;
+    color: #F4F9F9;
+}
+
+.klz input[type="text"] {
+    width: 895px;
+    background: #92967D;
+    border: 1px solid #92967D;
+    color: #F4F9F9;
+}
+
+.kta input[type="text"]{
+    width: 100px;
+    background: #92967D;
+    border: 1px solid #92967D;
+    color: #F4F9F9;
+}
+
+.kta input[type="date"]{
+    width: 100px;
+    background: #92967D;
+    border: 1px solid #92967D;
+    color: #F4F9F9;
+}
+
+.aktf input[type="text"]{
+    width: 50px;
+    background: #92967D;
+    border: 1px solid #92967D;
+    color: #F4F9F9;
+}
+
+table td label{
+    text-transform: capitalize;
+}
+
+input[type="text"]{
+    height: 35px;
+    width: 100%;
+    margin: 3px;
+    outline: none;
+}
+
+input[type="date"]{
+    height: 35px;
+    width: 100%;
+    margin: 3px;
+    outline: none;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex input[type="submit"]{
+    text-transform: capitalize;
+    width: 135px;
+    height: 45px;
+    margin: 15px;
+    background: #8DB596;
+    border: 2px solid #8DB596;
+    border-radius: 30px;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.flex a{
+    text-decoration: none;
+    background: #8DB596;
+    border: 2px solid #8DB596;
+    text-transform: capitalize;
+    color: #fff;
+    width: 135px;
+    height: 45px;
+    text-align: center;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.flex button{
+    background: none;
+    border: none;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.flex input[type="submit"]:hover,
+.flex a:hover{
+    transform: scale(1.08);
+}
